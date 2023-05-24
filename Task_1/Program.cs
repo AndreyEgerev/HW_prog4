@@ -18,14 +18,7 @@ void WriteNumber( int value)
     return;
 }
 
-// функция вычисления степени числа
-// int GetDegreeNumber( int number, int stepen)
-// {
-//     int numStepen = Convert.ToInt32(Math.Pow(number,stepen)); 
-//     return numStepen;
-// }
-
-// функция вычисления степени числа чере цикл
+// функция вычисления степени числа через цикл
 int GetDegreeNumberCycle( int number, int stepen)
 {
     //int numStepen = Convert.ToInt32(Math.Pow(number,stepen)); 
