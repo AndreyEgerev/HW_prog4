@@ -22,7 +22,6 @@ void WriteNumber( int value)
 // int GetDegreeNumber( int number, int stepen)
 // {
 //     int numStepen = Convert.ToInt32(Math.Pow(number,stepen)); 
-
 //     return numStepen;
 // }
 
@@ -30,8 +29,8 @@ void WriteNumber( int value)
 int GetDegreeNumberCycle( int number, int stepen)
 {
     //int numStepen = Convert.ToInt32(Math.Pow(number,stepen)); 
-    int numStepen =number;
-    for (int degreeNum = 0; degreeNum < stepen-1; degreeNum++)
+    int numStepen = 1;
+    for (int degreeNum = 0; degreeNum < stepen; degreeNum++)
     {
             //Console.Write($"{numStepen} . {degreeNum}");
             numStepen = numStepen * number;   
